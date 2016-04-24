@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96E57E111CCD02FD0040176B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E101CCD02FD0040176B /* AppDelegate.swift */; };
+		96E57E131CCD02FD0040176B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E121CCD02FD0040176B /* ViewController.swift */; };
+		96E57E161CCD02FD0040176B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E141CCD02FD0040176B /* Main.storyboard */; };
+		96E57E191CCD02FD0040176B /* RoyaleBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E171CCD02FD0040176B /* RoyaleBase.xcdatamodeld */; };
+		96E57E1B1CCD02FD0040176B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E1A1CCD02FD0040176B /* Assets.xcassets */; };
+		96E57E1E1CCD02FD0040176B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */; };
+		96E57E261CCD04170040176B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E251CCD04170040176B /* assets */; };
+		96E57E3F1CCD0D550040176B /* CardMeta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */; };
+		96E57E401CCD0D550040176B /* CardMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E381CCD0D550040176B /* CardMeta.swift */; };
+		96E57E411CCD0D550040176B /* CardLevel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */; };
+		96E57E421CCD0D550040176B /* CardLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3A1CCD0D550040176B /* CardLevel.swift */; };
+		96E57E431CCD0D550040176B /* CardDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */; };
+		96E57E441CCD0D550040176B /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3C1CCD0D550040176B /* CardDetail.swift */; };
+		96E57E451CCD0D550040176B /* Code+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */; };
+		96E57E461CCD0D550040176B /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3E1CCD0D550040176B /* Code.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96E57E0D1CCD02FD0040176B /* RoyaleBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyaleBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E57E101CCD02FD0040176B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96E57E121CCD02FD0040176B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96E57E151CCD02FD0040176B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96E57E181CCD02FD0040176B /* RoyaleBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoyaleBase.xcdatamodel; sourceTree = "<group>"; };
+		96E57E1A1CCD02FD0040176B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96E57E1D1CCD02FD0040176B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96E57E1F1CCD02FD0040176B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E57E251CCD04170040176B /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardMeta+CoreDataProperties.swift"; path = "models/CardMeta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96E57E381CCD0D550040176B /* CardMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardMeta.swift; path = models/CardMeta.swift; sourceTree = "<group>"; };
+		96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardLevel+CoreDataProperties.swift"; path = "models/CardLevel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96E57E3A1CCD0D550040176B /* CardLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardLevel.swift; path = models/CardLevel.swift; sourceTree = "<group>"; };
+		96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardDetail+CoreDataProperties.swift"; path = "models/CardDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96E57E3C1CCD0D550040176B /* CardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetail.swift; path = models/CardDetail.swift; sourceTree = "<group>"; };
+		96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Code+CoreDataProperties.swift"; path = "models/Code+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96E57E3E1CCD0D550040176B /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = models/Code.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E57E0A1CCD02FD0040176B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E57E041CCD02FD0040176B = {
+			isa = PBXGroup;
+			children = (
+				96E57E0F1CCD02FD0040176B /* RoyaleBase */,
+				96E57E0E1CCD02FD0040176B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E57E0E1CCD02FD0040176B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E57E0D1CCD02FD0040176B /* RoyaleBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E57E0F1CCD02FD0040176B /* RoyaleBase */ = {
+			isa = PBXGroup;
+			children = (
+				96E57E251CCD04170040176B /* assets */,
+				96E57E101CCD02FD0040176B /* AppDelegate.swift */,
+				96E57E121CCD02FD0040176B /* ViewController.swift */,
+				96E57E141CCD02FD0040176B /* Main.storyboard */,
+				96E57E1A1CCD02FD0040176B /* Assets.xcassets */,
+				96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */,
+				96E57E1F1CCD02FD0040176B /* Info.plist */,
+				96E57E171CCD02FD0040176B /* RoyaleBase.xcdatamodeld */,
+				96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */,
+				96E57E381CCD0D550040176B /* CardMeta.swift */,
+				96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */,
+				96E57E3A1CCD0D550040176B /* CardLevel.swift */,
+				96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */,
+				96E57E3C1CCD0D550040176B /* CardDetail.swift */,
+				96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */,
+				96E57E3E1CCD0D550040176B /* Code.swift */,
+			);
+			path = RoyaleBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E57E0C1CCD02FD0040176B /* RoyaleBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E57E221CCD02FD0040176B /* Build configuration list for PBXNativeTarget "RoyaleBase" */;
+			buildPhases = (
+				96E57E091CCD02FD0040176B /* Sources */,
+				96E57E0A1CCD02FD0040176B /* Frameworks */,
+				96E57E0B1CCD02FD0040176B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoyaleBase;
+			productName = RoyaleBase;
+			productReference = 96E57E0D1CCD02FD0040176B /* RoyaleBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E57E051CCD02FD0040176B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Juneyoung Oh";
+				TargetAttributes = {
+					96E57E0C1CCD02FD0040176B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 88G5KQD3X6;
+					};
+				};
+			};
+			buildConfigurationList = 96E57E081CCD02FD0040176B /* Build configuration list for PBXProject "RoyaleBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E57E041CCD02FD0040176B;
+			productRefGroup = 96E57E0E1CCD02FD0040176B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E57E0C1CCD02FD0040176B /* RoyaleBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E57E0B1CCD02FD0040176B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E57E1E1CCD02FD0040176B /* LaunchScreen.storyboard in Resources */,
+				96E57E261CCD04170040176B /* assets in Resources */,
+				96E57E1B1CCD02FD0040176B /* Assets.xcassets in Resources */,
+				96E57E161CCD02FD0040176B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E57E091CCD02FD0040176B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E57E411CCD0D550040176B /* CardLevel+CoreDataProperties.swift in Sources */,
+				96E57E3F1CCD0D550040176B /* CardMeta+CoreDataProperties.swift in Sources */,
+				96E57E191CCD02FD0040176B /* RoyaleBase.xcdatamodeld in Sources */,
+				96E57E131CCD02FD0040176B /* ViewController.swift in Sources */,
+				96E57E111CCD02FD0040176B /* AppDelegate.swift in Sources */,
+				96E57E421CCD0D550040176B /* CardLevel.swift in Sources */,
+				96E57E451CCD0D550040176B /* Code+CoreDataProperties.swift in Sources */,
+				96E57E461CCD0D550040176B /* Code.swift in Sources */,
+				96E57E431CCD0D550040176B /* CardDetail+CoreDataProperties.swift in Sources */,
+				96E57E401CCD0D550040176B /* CardMeta.swift in Sources */,
+				96E57E441CCD0D550040176B /* CardDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96E57E141CCD02FD0040176B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E57E151CCD02FD0040176B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E57E1D1CCD02FD0040176B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E57E201CCD02FD0040176B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96E57E211CCD02FD0040176B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E57E231CCD02FD0040176B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoyaleBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.owls.team.royale.RoyaleBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96E57E241CCD02FD0040176B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoyaleBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.owls.team.royale.RoyaleBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E57E081CCD02FD0040176B /* Build configuration list for PBXProject "RoyaleBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E57E201CCD02FD0040176B /* Debug */,
+				96E57E211CCD02FD0040176B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E57E221CCD02FD0040176B /* Build configuration list for PBXNativeTarget "RoyaleBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E57E231CCD02FD0040176B /* Debug */,
+				96E57E241CCD02FD0040176B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96E57E171CCD02FD0040176B /* RoyaleBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96E57E181CCD02FD0040176B /* RoyaleBase.xcdatamodel */,
+			);
+			currentVersion = 96E57E181CCD02FD0040176B /* RoyaleBase.xcdatamodel */;
+			path = RoyaleBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96E57E051CCD02FD0040176B /* Project object */;
+}

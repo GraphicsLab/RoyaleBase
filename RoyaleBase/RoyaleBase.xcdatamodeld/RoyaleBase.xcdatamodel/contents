@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="CardDetail" representedClassName=".CardDetail" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meta" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardMeta" inverseName="details" inverseEntity="CardMeta" syncable="YES"/>
+    </entity>
+    <entity name="CardLevel" representedClassName=".CardLevel" syncable="YES">
+        <attribute name="damage" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="dps" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="hits" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" minValueString="1" defaultValueString="1" syncable="YES"/>
+        <relationship name="meta" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardMeta" inverseName="levels" inverseEntity="CardMeta" syncable="YES"/>
+    </entity>
+    <entity name="CardMeta" representedClassName=".CardMeta" syncable="YES">
+        <attribute name="arena" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="cost" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="deploy_time" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hitspeed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="range" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rarity" optional="YES" attributeType="String" defaultValueString="common" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="String" defaultValueString="normal" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" defaultValueString="unit" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" defaultValueString="unit" syncable="YES"/>
+        <relationship name="details" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CardDetail" inverseName="meta" inverseEntity="CardDetail" syncable="YES"/>
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CardLevel" inverseName="meta" inverseEntity="CardLevel" syncable="YES"/>
+    </entity>
+    <entity name="Code" representedClassName=".Code" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CardMeta" positionX="-63" positionY="-18" width="128" height="255"/>
+        <element name="Code" positionX="-54" positionY="36" width="128" height="90"/>
+        <element name="CardDetail" positionX="-36" positionY="54" width="128" height="120"/>
+        <element name="CardLevel" positionX="-18" positionY="72" width="128" height="135"/>
+    </elements>
+</model>
