@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20139F4D2942C0BA52C8F6A8E64CA2B868D06468",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20139F4D2942C0BA52C8F6A8E64CA2B868D06468" : 0,
+    "6722AEDF25BBA510550EE61BF1B660FE478EFA1D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "819FA04C-AFF7-4AE9-A05F-4FB910048F9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20139F4D2942C0BA52C8F6A8E64CA2B868D06468" : "RoyaleBase\/",
+    "6722AEDF25BBA510550EE61BF1B660FE478EFA1D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RoyaleBase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RoyaleBase.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GraphicsLab\/RoyaleBase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20139F4D2942C0BA52C8F6A8E64CA2B868D06468"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/juneyoung\/learning-ios9.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6722AEDF25BBA510550EE61BF1B660FE478EFA1D"
+    }
+  ]
+}

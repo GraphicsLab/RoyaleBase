@@ -11,6 +11,7 @@ import CoreData
 
 class ViewController: UIViewController {
     
+    /* Not use */
     func pushData(){
         let appDeligate = UIApplication.sharedApplication().delegate as! AppDelegate;
         let managedContext = appDeligate.managedObjectContext;
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         
     }
     
+    /* Not use neither */
     func popData(model:String, id:Int16){
         let appDeligate = UIApplication.sharedApplication().delegate as! AppDelegate;
         let managedContext = appDeligate.managedObjectContext;
@@ -62,9 +64,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //Push Skeleton Army
-        pushData();
+        //pushData();
         //Get Skeleton Army
-        popData("CardMeta", id: 0);
+        //popData("CardMeta", id: 0);
+        
+        let csvParser = CSVParser();
+        csvParser.readFile("type");
+        
     }
 
     override func didReceiveMemoryWarning() {

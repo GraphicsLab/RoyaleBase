@@ -36,10 +36,12 @@
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Type" syncable="YES"/>
     <elements>
         <element name="CardMeta" positionX="-63" positionY="-18" width="128" height="255"/>
         <element name="Code" positionX="-54" positionY="36" width="128" height="90"/>
         <element name="CardDetail" positionX="-36" positionY="54" width="128" height="120"/>
         <element name="CardLevel" positionX="-18" positionY="72" width="128" height="135"/>
+        <element name="Type" positionX="0" positionY="135" width="128" height="45"/>
     </elements>
 </model>

@@ -22,6 +22,8 @@
 		96E57E441CCD0D550040176B /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3C1CCD0D550040176B /* CardDetail.swift */; };
 		96E57E451CCD0D550040176B /* Code+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */; };
 		96E57E461CCD0D550040176B /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3E1CCD0D550040176B /* Code.swift */; };
+		96E57E491CCFAD1C0040176B /* CsvParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E481CCFAD1C0040176B /* CsvParser.swift */; };
+		96E57E4C1CCFB3AE0040176B /* type.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E4B1CCFB3AE0040176B /* type.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		96E57E3C1CCD0D550040176B /* CardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetail.swift; path = models/CardDetail.swift; sourceTree = "<group>"; };
 		96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Code+CoreDataProperties.swift"; path = "models/Code+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		96E57E3E1CCD0D550040176B /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = models/Code.swift; sourceTree = "<group>"; };
+		96E57E481CCFAD1C0040176B /* CsvParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CsvParser.swift; sourceTree = "<group>"; };
+		96E57E4B1CCFB3AE0040176B /* type.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = type.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		96E57E0F1CCD02FD0040176B /* RoyaleBase */ = {
 			isa = PBXGroup;
 			children = (
+				96E57E4A1CCFB36F0040176B /* Data */,
+				96E57E471CCFACDB0040176B /* Utils */,
 				96E57E251CCD04170040176B /* assets */,
 				96E57E101CCD02FD0040176B /* AppDelegate.swift */,
 				96E57E121CCD02FD0040176B /* ViewController.swift */,
@@ -92,6 +98,22 @@
 				96E57E3E1CCD0D550040176B /* Code.swift */,
 			);
 			path = RoyaleBase;
+			sourceTree = "<group>";
+		};
+		96E57E471CCFACDB0040176B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				96E57E481CCFAD1C0040176B /* CsvParser.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		96E57E4A1CCFB36F0040176B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				96E57E4B1CCFB3AE0040176B /* type.csv */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +177,7 @@
 			files = (
 				96E57E1E1CCD02FD0040176B /* LaunchScreen.storyboard in Resources */,
 				96E57E261CCD04170040176B /* assets in Resources */,
+				96E57E4C1CCFB3AE0040176B /* type.csv in Resources */,
 				96E57E1B1CCD02FD0040176B /* Assets.xcassets in Resources */,
 				96E57E161CCD02FD0040176B /* Main.storyboard in Resources */,
 			);
@@ -178,6 +201,7 @@
 				96E57E431CCD0D550040176B /* CardDetail+CoreDataProperties.swift in Sources */,
 				96E57E401CCD0D550040176B /* CardMeta.swift in Sources */,
 				96E57E441CCD0D550040176B /* CardDetail.swift in Sources */,
+				96E57E491CCFAD1C0040176B /* CsvParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
