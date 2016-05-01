@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9638FE291CD5DD6E00233DCC /* cardmeta.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9638FE271CD5DD6E00233DCC /* cardmeta.csv */; };
+		9638FE2A1CD5DD6E00233DCC /* code.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9638FE281CD5DD6E00233DCC /* code.csv */; };
+		9638FE3F1CD5E13400233DCC /* Code+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638FE3B1CD5E13400233DCC /* Code+CoreDataProperties.swift */; };
+		9638FE401CD5E13400233DCC /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638FE3C1CD5E13400233DCC /* Code.swift */; };
+		9638FE411CD5E13400233DCC /* CardMeta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638FE3D1CD5E13400233DCC /* CardMeta+CoreDataProperties.swift */; };
+		9638FE421CD5E13400233DCC /* CardMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638FE3E1CD5E13400233DCC /* CardMeta.swift */; };
+		9638FE451CD5E4C700233DCC /* RandomDeck.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9638FE441CD5E4C600233DCC /* RandomDeck.storyboard */; };
 		96E57E111CCD02FD0040176B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E101CCD02FD0040176B /* AppDelegate.swift */; };
 		96E57E131CCD02FD0040176B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E121CCD02FD0040176B /* ViewController.swift */; };
 		96E57E161CCD02FD0040176B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E141CCD02FD0040176B /* Main.storyboard */; };
@@ -14,19 +21,17 @@
 		96E57E1B1CCD02FD0040176B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E1A1CCD02FD0040176B /* Assets.xcassets */; };
 		96E57E1E1CCD02FD0040176B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */; };
 		96E57E261CCD04170040176B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E251CCD04170040176B /* assets */; };
-		96E57E3F1CCD0D550040176B /* CardMeta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */; };
-		96E57E401CCD0D550040176B /* CardMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E381CCD0D550040176B /* CardMeta.swift */; };
-		96E57E411CCD0D550040176B /* CardLevel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */; };
-		96E57E421CCD0D550040176B /* CardLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3A1CCD0D550040176B /* CardLevel.swift */; };
-		96E57E431CCD0D550040176B /* CardDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */; };
-		96E57E441CCD0D550040176B /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3C1CCD0D550040176B /* CardDetail.swift */; };
-		96E57E451CCD0D550040176B /* Code+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */; };
-		96E57E461CCD0D550040176B /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E3E1CCD0D550040176B /* Code.swift */; };
 		96E57E491CCFAD1C0040176B /* CsvParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E57E481CCFAD1C0040176B /* CsvParser.swift */; };
-		96E57E4C1CCFB3AE0040176B /* type.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96E57E4B1CCFB3AE0040176B /* type.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9638FE271CD5DD6E00233DCC /* cardmeta.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cardmeta.csv; path = data/cardmeta.csv; sourceTree = "<group>"; };
+		9638FE281CD5DD6E00233DCC /* code.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = code.csv; path = data/code.csv; sourceTree = "<group>"; };
+		9638FE3B1CD5E13400233DCC /* Code+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Code+CoreDataProperties.swift"; path = "models/Code+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9638FE3C1CD5E13400233DCC /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = models/Code.swift; sourceTree = "<group>"; };
+		9638FE3D1CD5E13400233DCC /* CardMeta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardMeta+CoreDataProperties.swift"; path = "models/CardMeta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9638FE3E1CD5E13400233DCC /* CardMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardMeta.swift; path = models/CardMeta.swift; sourceTree = "<group>"; };
+		9638FE441CD5E4C600233DCC /* RandomDeck.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RandomDeck.storyboard; path = Storyboards/RandomDeck.storyboard; sourceTree = "<group>"; };
 		96E57E0D1CCD02FD0040176B /* RoyaleBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyaleBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E57E101CCD02FD0040176B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E57E121CCD02FD0040176B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,16 +41,7 @@
 		96E57E1D1CCD02FD0040176B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E57E1F1CCD02FD0040176B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E57E251CCD04170040176B /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
-		96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardMeta+CoreDataProperties.swift"; path = "models/CardMeta+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		96E57E381CCD0D550040176B /* CardMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardMeta.swift; path = models/CardMeta.swift; sourceTree = "<group>"; };
-		96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardLevel+CoreDataProperties.swift"; path = "models/CardLevel+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		96E57E3A1CCD0D550040176B /* CardLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardLevel.swift; path = models/CardLevel.swift; sourceTree = "<group>"; };
-		96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CardDetail+CoreDataProperties.swift"; path = "models/CardDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		96E57E3C1CCD0D550040176B /* CardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetail.swift; path = models/CardDetail.swift; sourceTree = "<group>"; };
-		96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Code+CoreDataProperties.swift"; path = "models/Code+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		96E57E3E1CCD0D550040176B /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = models/Code.swift; sourceTree = "<group>"; };
 		96E57E481CCFAD1C0040176B /* CsvParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CsvParser.swift; sourceTree = "<group>"; };
-		96E57E4B1CCFB3AE0040176B /* type.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = type.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +55,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9638FE161CD5CF7C00233DCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9638FE3B1CD5E13400233DCC /* Code+CoreDataProperties.swift */,
+				9638FE3C1CD5E13400233DCC /* Code.swift */,
+				9638FE3D1CD5E13400233DCC /* CardMeta+CoreDataProperties.swift */,
+				9638FE3E1CD5E13400233DCC /* CardMeta.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9638FE431CD5E48300233DCC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */,
+				96E57E141CCD02FD0040176B /* Main.storyboard */,
+				9638FE441CD5E4C600233DCC /* RandomDeck.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		96E57E041CCD02FD0040176B = {
 			isa = PBXGroup;
 			children = (
@@ -78,24 +95,16 @@
 		96E57E0F1CCD02FD0040176B /* RoyaleBase */ = {
 			isa = PBXGroup;
 			children = (
+				9638FE431CD5E48300233DCC /* Storyboards */,
+				9638FE161CD5CF7C00233DCC /* Models */,
 				96E57E4A1CCFB36F0040176B /* Data */,
 				96E57E471CCFACDB0040176B /* Utils */,
 				96E57E251CCD04170040176B /* assets */,
 				96E57E101CCD02FD0040176B /* AppDelegate.swift */,
 				96E57E121CCD02FD0040176B /* ViewController.swift */,
-				96E57E141CCD02FD0040176B /* Main.storyboard */,
 				96E57E1A1CCD02FD0040176B /* Assets.xcassets */,
-				96E57E1C1CCD02FD0040176B /* LaunchScreen.storyboard */,
 				96E57E1F1CCD02FD0040176B /* Info.plist */,
 				96E57E171CCD02FD0040176B /* RoyaleBase.xcdatamodeld */,
-				96E57E371CCD0D550040176B /* CardMeta+CoreDataProperties.swift */,
-				96E57E381CCD0D550040176B /* CardMeta.swift */,
-				96E57E391CCD0D550040176B /* CardLevel+CoreDataProperties.swift */,
-				96E57E3A1CCD0D550040176B /* CardLevel.swift */,
-				96E57E3B1CCD0D550040176B /* CardDetail+CoreDataProperties.swift */,
-				96E57E3C1CCD0D550040176B /* CardDetail.swift */,
-				96E57E3D1CCD0D550040176B /* Code+CoreDataProperties.swift */,
-				96E57E3E1CCD0D550040176B /* Code.swift */,
 			);
 			path = RoyaleBase;
 			sourceTree = "<group>";
@@ -111,7 +120,8 @@
 		96E57E4A1CCFB36F0040176B /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				96E57E4B1CCFB3AE0040176B /* type.csv */,
+				9638FE271CD5DD6E00233DCC /* cardmeta.csv */,
+				9638FE281CD5DD6E00233DCC /* code.csv */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -177,9 +187,11 @@
 			files = (
 				96E57E1E1CCD02FD0040176B /* LaunchScreen.storyboard in Resources */,
 				96E57E261CCD04170040176B /* assets in Resources */,
-				96E57E4C1CCFB3AE0040176B /* type.csv in Resources */,
 				96E57E1B1CCD02FD0040176B /* Assets.xcassets in Resources */,
 				96E57E161CCD02FD0040176B /* Main.storyboard in Resources */,
+				9638FE291CD5DD6E00233DCC /* cardmeta.csv in Resources */,
+				9638FE451CD5E4C700233DCC /* RandomDeck.storyboard in Resources */,
+				9638FE2A1CD5DD6E00233DCC /* code.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,18 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E57E411CCD0D550040176B /* CardLevel+CoreDataProperties.swift in Sources */,
-				96E57E3F1CCD0D550040176B /* CardMeta+CoreDataProperties.swift in Sources */,
 				96E57E191CCD02FD0040176B /* RoyaleBase.xcdatamodeld in Sources */,
+				9638FE3F1CD5E13400233DCC /* Code+CoreDataProperties.swift in Sources */,
+				9638FE421CD5E13400233DCC /* CardMeta.swift in Sources */,
 				96E57E131CCD02FD0040176B /* ViewController.swift in Sources */,
 				96E57E111CCD02FD0040176B /* AppDelegate.swift in Sources */,
-				96E57E421CCD0D550040176B /* CardLevel.swift in Sources */,
-				96E57E451CCD0D550040176B /* Code+CoreDataProperties.swift in Sources */,
-				96E57E461CCD0D550040176B /* Code.swift in Sources */,
-				96E57E431CCD0D550040176B /* CardDetail+CoreDataProperties.swift in Sources */,
-				96E57E401CCD0D550040176B /* CardMeta.swift in Sources */,
-				96E57E441CCD0D550040176B /* CardDetail.swift in Sources */,
+				9638FE401CD5E13400233DCC /* Code.swift in Sources */,
 				96E57E491CCFAD1C0040176B /* CsvParser.swift in Sources */,
+				9638FE411CD5E13400233DCC /* CardMeta+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

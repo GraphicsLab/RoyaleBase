@@ -7,12 +7,14 @@
 //
 
 import Foundation
+import UIKit
+import CoreData
 
 class CSVParser {
     
     let delimeter = ",";
     
-    func readFile (fileName: String) -> Void {
+    func readFile (fileName: String, modelName: String) -> Void {
         
         let file = NSBundle.mainBundle().pathForResource(fileName, ofType: "csv");
         var text:String = String();
@@ -24,22 +26,40 @@ class CSVParser {
         }
         let lines:[String] = text.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet());
         
+        var keys = [String]();
         for i in 0 ..< lines.count {
+            print("text: " + lines[i]);
+            let singleLine = lines[i];
+            
+            let rowData = singleLine.componentsSeparatedByString(delimeter);
+            
             
             if(i == 0){
                 //header
-            }
-            
-            print("text: " + lines[i]);
-            let singleLine = lines[i];
-            let rowData = singleLine.componentsSeparatedByString(delimeter);
-            for j in 0 ..< rowData.count {
-                print(rowData[j]);
+                keys = rowData;
+                
+            }else{
+                //data set
+                pushToModel(modelName, keys: keys, data: rowData);
             }
         }
     }
     
-    func pushToModel(modelName:String){
+    func pushToModel(modelName:String, keys:[String], data: [String]){
+        let appDeligate = UIApplication.sharedApplication().delegate as! AppDelegate;
+        let managedContext = appDeligate.managedObjectContext;
         
+        let singleEntity = NSEntityDescription.entityForName(modelName, inManagedObjectContext: managedContext);
+        let instance = NSManagedObject(entity: singleEntity!, insertIntoManagedObjectContext: managedContext);
+        
+        for i in 0 ..< data.count {
+            print("keys [" + keys[i] + "] values [" + data[i] + "]")
+            instance.setValue(data[i], forKey: keys[i])
+        }
+        do {
+            try managedContext.save()
+        } catch let error as NSError {
+            print("Could not save \(error)");
+        }
     }
 }

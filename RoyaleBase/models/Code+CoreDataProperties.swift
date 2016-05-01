@@ -2,7 +2,7 @@
 //  Code+CoreDataProperties.swift
 //  RoyaleBase
 //
-//  Created by Juneyoung Oh on 4/24/16.
+//  Created by Juneyoung Oh on 5/1/16.
 //  Copyright © 2016 Juneyoung Oh. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,8 +14,8 @@ import CoreData
 
 extension Code {
 
-    @NSManaged var id: NSNumber?
-    @NSManaged var category: String?
+    @NSManaged var group: String?
+    @NSManaged var value: String?
     @NSManaged var name: String?
 
 }
